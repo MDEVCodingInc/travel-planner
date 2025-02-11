@@ -60,8 +60,8 @@ We welcome contributions to the Travel Planner project! To contribute:
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
+For any questions or suggestions, feel free to open an issue or contact us at our ![https://discord.gg/g7v9zfKYHg](https://img.shields.io/badge/Discord)
 
-For any questions or suggestions, feel free to open an issue or contact us at our [discord](https://discord.gg/g7v9zfKYHg)
----
+
 
 Happy traveling! 🌍✈️
