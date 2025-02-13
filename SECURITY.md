@@ -16,7 +16,7 @@ We take security vulnerabilities seriously. If you find a vulnerability in the T
    Do not open a public issue on GitHub or discuss the vulnerability on social media.
 
 2. **Contact us privately.**  
-   Submit a securtity isssue here
+   Submit a securtity isssue [here](https://github.com/MDEVCodingInc/travel-planner/security/advisories/new)
 
 3. **Provide details.**  
    Include:
