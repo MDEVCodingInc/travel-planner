@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: #0056b3;
+}
