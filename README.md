@@ -1,67 +1,47 @@
-# Travel Planner
+# 🌍 Travel Planner
 
-Welcome to the Travel Planner project! This application helps users plan and organize their trips efficiently. It provides features like creating trip itineraries, searching for points of interest, and sharing travel plans.
+**Travel Planner** is a user-friendly application that allows you to easily plan your trips, track expenses, and view your travel data on a map and timeline.  
 
-## Features
+## 🚀 Features
 
-- **Trip Itineraries**: Create and manage detailed itineraries for your trips.
-- **Points of Interest**: Search for and add points of interest to your travel plans.
-- **Weather Information**: Get weather updates for your destinations.
-- **Travel Reminders**: Set reminders for important travel dates and activities.
+- ✈️ **Trip Planning**: Add transport, accommodations, activities, and dining options.  
+- 🗺 **Map Overview**: View all travel stops on an interactive OpenStreetMap map.  
+- ⏳ **Timeline View**: Get a clear schedule of your trip.  
+- 💰 **Expense Tracking**: Monitor spending by category and export data to CSV.  
+- 🔍 **Search Functionality**: Quickly find planned activities and locations.  
+- 📂 **Data Storage**: Uses an SQLite database for data management.  
+- 📤 **Export Options**: Export trip plans to CSV or GPX.  
 
-## Installation
+## 🛠 Installation  
 
-To get started with the Travel Planner, follow these steps:
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/yourusername/travel-planner.git
+   cd travel-planner
+Install dependencies
+Ensure you have Python 3.10+ installed and run:
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/MDEVCodingInc/travel-planner.git
-    ```
-2. **Navigate to the project directory**:
-    ```bash
-    cd travel-planner
-    ```
-3. **Install dependencies**:
-    ```bash
-    npm install
-    ```
+sh
+Copy
+Edit
+pip install -r requirements.txt
+Start the application
 
-## Usage
+sh
+Copy
+Edit
+python app.py
+Open in browser
+Go to: http://127.0.0.1:5000
 
-To run the application locally:
+📸 Screenshots
+(Add interface screenshots here if available.)
 
-1. **Start the development server**:
-    ```bash
-    npm start
-    ```
-2. Open your browser and navigate to `http://localhost:3000`.
+🗺 Data Sources
+Maps: OpenStreetMap
+Travel Information: WikiVoyage & OpenTripMap
+🔒 Security
+See SECURITY.md for details on reporting security issues.
 
-## Contributing
-
-We welcome contributions to the Travel Planner project! To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-    ```bash
-    git checkout -b feature-name
-    ```
-3. Make your changes and commit them.
-    ```bash
-    git commit -m "Description of your changes"
-    ```
-4. Push your changes to your fork.
-    ```bash
-    git push origin feature-name
-    ```
-5. Open a pull request with a description of your changes.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contact
-For any questions or suggestions, feel free to open an issue or contact us at our https://discord.gg/g7v9zfKYHg
-
-
-
-Happy traveling! 🌍✈️
+📜 License
+This project is licensed under the MIT License. See LICENSE for more details.
