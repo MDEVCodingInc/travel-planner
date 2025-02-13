@@ -2,11 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Planner</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Welcome to Travel Planner</h1>
+    <h1>Travel Planner</h1>
+
+    <form action="/add" method="POST">
+        <input type="text" name="name" placeholder="Trip Name" required>
+        <input type="text" name="category" placeholder="Category (e.g. Hotel, Flight)">
+        <input type="date" name="start_date" required>
+        <input type="date" name="end_date" required>
+        <input type="number" name="cost" placeholder="Cost (€)">
+        <button type="submit">Add Trip</button>
+    </form>
+
+    <h2>Planned Trips</h2>
+    <ul>
+        {% for trip in trips %}
+            <li>
+                {{ trip[1] }} ({{ trip[2] }}) - {{ trip[3] }} to {{ trip[4] }} - €{{ trip[5] }}
+                <a href="/delete/{{ trip[0] }}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h2>Import / Export</h2>
+    <form action="/import" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit">Import CSV</button>
+    </form>
+    <a href="/export">Export to CSV</a>
+
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
